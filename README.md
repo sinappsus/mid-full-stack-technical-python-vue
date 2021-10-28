@@ -23,3 +23,24 @@ when completed you will submit a pull request to this repo and send a notificati
 
 # Challanges
 there are 3 challanges your code must solve
+
+## Challange 01
+provide a project plan with timelines on the above defined task and execute based on this.
+## Challange 02
+Create a function that takes an array of numbers and return "Boom!" if the digit 7 appears in the array. Otherwise, return "there is no 7 in the array".
+Example
+sevenBoom([1, 2, 3, 4, 5, 6, 7]) ➞ "Boom!"
+// 7 contains the number seven.
+
+sevenBoom([8, 6, 33, 100]) ➞ "there is no 7 in the array"
+// None of the items contain 7 within them.
+
+sevenBoom([2, 55, 60, 97, 86]) ➞ "Boom!"
+// 97 contains the number seven.
+
+## Challange 03
+Create a function that takes two numbers as arguments and adds them together to get a new number. The function then repeatedly multiplies the digits of the new number by each other, yielding a new number, until the product is only 1 digit long. Return the final product.
+Example
+sumDigProd(0) ➞ 0
+
+sumDigProd(1, 2, 3, 4, 5, 6) ➞ 2
